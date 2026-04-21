@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# HuggingFace model cache (900MB+ — never commit this)
+~/.cache/huggingface/
+.cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# IDE folders
+.vscode/
+.idea/
+
+# Gradio temp files
+flagged/
+gradio_cached_examples/
